@@ -3,6 +3,7 @@ context('Actions', () => {
         const allure = Cypress.Allure.reporter.getInterface();
         const today = new Date();
         const currentHour = today.getHours();
+        const current = 1;
 
         allure.writeEnvironmentInfo({
             someEnvInfo: 'envInfo',
